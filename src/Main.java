@@ -35,7 +35,7 @@ public class Main {
         //Задание 3
         System.out.println("Задание 3");
 
-        Function<Double, Long> numberLong = new Function<Double, Long>() {
+        Function<Double,Long> numberLong = new Function<Double,Long>() {
             @Override
             public Long apply(Double number) {
                 return Math.round(number);
